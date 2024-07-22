@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #f8f9fa;
+}
+
+@layer components {
+
+    .option-button {
+        @apply p-3 rounded transition hover:bg-[#f8f9fa] cursor-pointer
+    }
+
+    .heading {
+        @apply font-bold mt-4 mb-2 leading-tight;
+    }
+
+    .color {
+        @apply flex items-center flex-col gap-1 option-button p-2
+    }
+
+    .select {
+        @apply appearance-none border border-[#ccc] p-2 rounded w-full cursor-pointer text-[#555]
+    }
+}
+
+input[type="color"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    &::-webkit-color-swatch-wrapper {
+        @apply p-0
+    }
+}
+
+
+ul { @apply list-disc; }
+
+ol { @apply list-decimal; }
+
+h1 { @apply heading text-4xl; }
+
+h2 { @apply heading text-3xl; }
+
+h3 { @apply heading text-2xl; }
+
+h4 { @apply heading text-xl; }
+
+h5 { @apply heading text-lg; }
+
+h6 { @apply heading text-base; }
+
+a { @apply text-blue-500 underline cursor-pointer; }
+
+
