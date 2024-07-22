@@ -38,7 +38,7 @@ This project is a web-based text editor built with React, offering a variety of 
 3. Start the development server:
 
     ```bash
-    npm start
+    npm run dev
     ```
 
 4. Open your browser and navigate to `http://localhost:5173` to see the application.
