@@ -1,9 +1,9 @@
 {
-  "name": "airbnb",
+  "name": "text-editor",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://syeda-horain-ali.github.io/text-editor",
+  "homepage": "https://syeda-hoorain-ali.github.io/text-editor",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
